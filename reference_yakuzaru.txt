@@ -1,0 +1,14 @@
+@article{hanya2020,
+   author = {Hanya, Goro and Yoshihiro, Shin-ichi and Yang, Danhe and Wong, Christopher Chai Thiam and Oka, Momoko and Yanagi, Moe and Sato, Yutaro and Ohtsubo, Taku and Sakurai, Takayuki and Kawada, Mikaze and Fahri, F. and Siwan, Elangkumaran Sagtia and Havercamp, Kristin and Yoden, Shusuke and Gu, Ningxin and Lokhandwala, Seema Sheesh and Nakano, Masamitsu and Taki, Yuto and Shimegi, Tamaki and Hongo, Shun and Sawada, Akiko and Honda, Takeaki and Kurihara, Yosuke},
+   title = {Island-wide Distribution of Japanese Macaques in Yakushima Revealed by Census Targeting Feces on Roads in 2017-2018},
+   journal = {Primate Research},
+   volume = {36},
+   number = {2},
+   pages = {23-31},
+   ISSN = {0912-4047
+1880-2117},
+   DOI = {10.2354/psj.36.014},
+   year = {2020},
+   type = {Journal Article}
+}
+

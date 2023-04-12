@@ -1,0 +1,29 @@
+---
+title: "yakuzaru"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+# 分布
+@hanya2020 を参考に情報を整理。
+
+
+
+
+
+# 遊動域
+
+# 発達
+
+# 集団の構成
+
+# 社会関係
+## 群れ内
+
+## 群れ外
+
+# 季節繁殖性
+
+
+
