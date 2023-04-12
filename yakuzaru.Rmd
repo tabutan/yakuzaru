@@ -3,10 +3,11 @@ title: "yakuzaru"
 output: html_notebook
 editor_options: 
   chunk_output_type: inline
+bibliography: reference_yakuzaru.bib
 ---
 
 # 分布
-@hanya2020 を参考に情報を整理。
+@hanya2020 , @miyata2017 を参考に情報を整理。
 
 
 
@@ -27,3 +28,4 @@ editor_options:
 
 
 
+# 参考文献
