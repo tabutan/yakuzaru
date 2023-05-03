@@ -16,6 +16,7 @@ header-includes:
    - \usepackage{nccmath}
 bibliography: reference_yakuzaru.bib   
 link-citations: yes
+csl: primates.csl
 ---
 
 ```{r, echo = FALSE}
