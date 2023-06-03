@@ -16,7 +16,7 @@ header-includes:
    - \usepackage{nccmath}
 bibliography: reference_yakuzaru.bib   
 link-citations: yes
-csl: evolutionary-anthropology.csl
+csl: nature-no-et-al.csl
 ---
 
 ```{r, echo = FALSE}
