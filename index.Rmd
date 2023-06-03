@@ -21,7 +21,7 @@ csl: evolutionary-anthropology.csl
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE,
-                      warning = FALSE, fig.align = "center",
+                      warning = FALSE, fig.align = "left",
                       cache = TRUE)
 ```
 
