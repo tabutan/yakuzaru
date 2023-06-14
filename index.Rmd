@@ -16,7 +16,7 @@ header-includes:
    - \usepackage{nccmath}
 bibliography: reference_yakuzaru.bib   
 link-citations: yes
-csl: nature.csl
+csl: nature-no-et-al.csl
 ---
 
 ```{r, echo = FALSE}
@@ -25,3 +25,4 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE,
                       cache = TRUE)
 ```
 
+<!-- なぜか連番途中の引用文献が抜ける -->
