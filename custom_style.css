@@ -1,45 +1,46 @@
 h1 {
   font-size: 21px;
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-B";
   margin-bottom: -20px;
+  color: #333333;
 }
 
 h2 {
   font-size: 19px;
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-B";
   margin-bottom: -20px;
 }
 
 h3 {
   font-size: 18px;
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-B";
   margin-top: -10px; 
 }
 
 h4 {
   font-size: 18px;
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-B";
   margin-top: -10px; 
 }
 
 p {
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-R";
   font-size: 16.5px;
 }
 
 ul {
   font-size: 15.5px;
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-R";
 }
 
 ol {
   font-size: 15.5px;
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-B";
 }
 
 li {
   font-size: 15.5px;
-  font-family: "Meiryo";
+  font-family: "UD デジタル 教科書体 N-R";
   margin-bottom: 10px; 
 }
 

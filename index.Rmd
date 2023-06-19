@@ -1,5 +1,5 @@
 --- 
-title: "yakuzaru"
+title: "ヤクシマザルという生き物を知りたい"
 author: "tabutan"
 date: "`r Sys.Date()`"
 output: 
@@ -26,3 +26,4 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE,
 ```
 
 <!-- なぜか連番途中の引用文献が抜ける -->
+<!-- 引用しているのに引用されていない論文がある -->

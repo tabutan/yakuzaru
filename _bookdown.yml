@@ -1,4 +1,4 @@
-book_filename: "yakuzaru"  
+book_filename: "ヤクシマザルという生き物を知りたい"  
 rmd_files:                    
   - index.Rmd
   - Chapter0.Rmd
