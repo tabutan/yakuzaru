@@ -13,13 +13,13 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-family: "UD デジタル 教科書体 N-B";
+  font-family: "UD デジタル 教科書体 N-R";
   margin-top: -10px; 
 }
 
 h4 {
   font-size: 18px;
-  font-family: "UD デジタル 教科書体 N-B";
+  font-family: "UD デジタル 教科書体 N-R";
   margin-top: -10px; 
 }
 
@@ -35,7 +35,7 @@ ul {
 
 ol {
   font-size: 15.5px;
-  font-family: "UD デジタル 教科書体 N-B";
+  font-family: "UD デジタル 教科書体 N-R";
 }
 
 li {
@@ -50,7 +50,7 @@ li {
   margin-bottom: 20px;
 }
 
-p.caption {
+.caption {
   margin-bottom: 50px; 
   font-style: italic;
   font-size: 13.5px;
