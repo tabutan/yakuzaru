@@ -2,25 +2,28 @@ h1 {
   font-size: 21px;
   font-family: "UD デジタル 教科書体 N-B";
   margin-bottom: -20px;
-  color: #333333;
+  color: #595857; 
 }
 
 h2 {
   font-size: 19px;
   font-family: "UD デジタル 教科書体 N-B";
   margin-bottom: -20px;
+  color: #595857; 
 }
 
 h3 {
   font-size: 18px;
-  font-family: "UD デジタル 教科書体 N-R";
+  font-family: "UD デジタル 教科書体 N-B";
   margin-top: -10px; 
+  color: #595857; 
 }
 
 h4 {
   font-size: 18px;
-  font-family: "UD デジタル 教科書体 N-R";
+  font-family: "UD デジタル 教科書体 N-B";
   margin-top: -10px; 
+  color: #595857; 
 }
 
 p {
