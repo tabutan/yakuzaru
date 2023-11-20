@@ -3,6 +3,7 @@ rmd_files:
   - index.Rmd
   - Chapter0.Rmd
   - Chapter1.Rmd 
+  - torivia.Rmd
   - sessioninfo.Rmd
 output_dir: "docs"  
 language:
