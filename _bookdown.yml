@@ -2,6 +2,7 @@ book_filename: "ヤクシマザルという生き物を知りたい"
 rmd_files:                    
   - index.Rmd
   - Chapter0.Rmd
+<<<<<<< HEAD
   - wonder_macaque.Rmd
   - development.Rmd
   - group.Rmd
@@ -9,6 +10,10 @@ rmd_files:
   - social_relationship.Rmd
   - breeding.Rmd
   - further_study.Rmd
+=======
+  - Chapter1.Rmd 
+  - torivia.Rmd
+>>>>>>> 4d30bbb4c677fb4538be88634e1571cbc05db33c
   - sessioninfo.Rmd
 output_dir: "docs"  
 language:
