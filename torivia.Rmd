@@ -8,11 +8,63 @@
 ちなみにベニガオザルの学名は*Macaca arctoides*、「クマのような」の意味。
 
 
+## ヤクシマザルのお隣さん
+>屋久島の隣にある種子島には大正時代までニホンザルがいた[@hanya2000]
+
+1923年に種子島にニホンザルがいたことが、当時東北帝国大学教授であった長谷川言人による全国アンケートによって明らかになっている。屋久島と種子島は約20kmしか離れておらず、同じ亜熱帯地域でありながら降水量が大きく異なる。このような生態学的観点から、種子島のニホンザルが霊長類学が始まる戦後も生き残っていれば、屋久島と種子島での比較研究は興味深かっただろう。
+
+```{r taneyaku_climate, echo=FALSE}
+library(tidyverse)
+
+
+y1.lim <- c(0,40) #左軸気温
+y2.lim <- c(0,3500) #右軸降水量
+
+scaler <- (y2.lim[2] - y2.lim[1])/(y1.lim[2] - y1.lim[1])
+
+
+read_csv("taneyaku_climate20_22.csv", skip = 6) %>% 
+  drop_na() %>% 
+  group_by(site, month) %>% 
+  summarise("temp_max_month" = max(temp_max),
+            "temp_mean_month" = mean(temp_mean),
+            "temp_min_month" = min(temp_min),
+            "rainfall_month" = sum(rainfall)/3,
+            "wind_speed_month" = mean(wind_speed)) %>%
+  pivot_longer(cols = temp_max_month:temp_min_month, 
+               names_to = "temp_type", 
+               values_to = "temp_month") %>% 
+  mutate(site = str_replace_all(site, c("tane" = "種子島", "yaku" = "屋久島"))) %>% 
+  ggplot() +
+  facet_grid(~ site) +
+  geom_bar(aes(x = month, y = rainfall_month), 
+           name="降水量 (mm)", 
+           stat = 'identity', fill = "grey60", 
+           width = 0.7,
+           breaks = seq(0,3500,500)) +
+  geom_line(aes(x = month, y = temp_month*scaler, color = temp_type), size = 1) +
+  scale_x_continuous(breaks = seq(1,12,1)) +
+  scale_y_continuous(limit = y2.lim, 
+                     expand = c(0, 0), 
+                     sec.axis=sec_axis(trans = ~ ./scaler, 
+                     breaks = seq(y1.lim[1],y1.lim[2],5), 
+                     name="気温 (°C)")) +
+  labs(x = "月") 
+
+```
+
+
 # その他
+我田引水になるが、その他ヤクシマザルに関することを紹介する。
+
 ## LINEスタンプ
 あるヤクシマザルの研究者がサルらしい日々の情景をLINEスタンプにしている（[まるさるスタンプ](https://store.line.me/stickershop/product/25103401/ja)、図 \@ref(fig:marusaru)）。筆者が企画から携わり監修したスタンプで、サルが見せる場面の中からスタンプとして使いやすいように工夫を凝らした。
 
-```{r marusaru, out.width = "30%", fig.align = "center", echo = FALSE, fig.cap = "サンプル"}
+```{r marusaru, out.width = "30%", fig.align = "left", echo = FALSE, fig.cap = "サンプル"}
 knitr::include_graphics("image/marusaru.png")
 ```
+
+
+## X (Twitter)
+筆者は[\@tabutan_primate](https://twitter.com/tabutan_primate)で、長期観察することでわかるようなヤクシマザルの情報発信を行っている。 
 
