@@ -10,4 +10,9 @@
 
 # その他
 ## LINEスタンプ
-あるヤクシマザルの研究者がサルらしい日々の情景をLINEスタンプにしている（[まるさるスタンプ](https://store.line.me/stickershop/product/25103401/ja)）。筆者が企画から携わり監修したスタンプで、サルが見せる場面の中からスタンプとして使いやすいように工夫した。
+あるヤクシマザルの研究者がサルらしい日々の情景をLINEスタンプにしている（[まるさるスタンプ](https://store.line.me/stickershop/product/25103401/ja)、図 \@ref(fig:marusaru)）。筆者が企画から携わり監修したスタンプで、サルが見せる場面の中からスタンプとして使いやすいように工夫を凝らした。
+
+```{r marusaru, out.width = "30%", fig.align = "center", echo = FALSE, fig.cap = "サンプル"}
+knitr::include_graphics("image/marusaru.png")
+```
+
