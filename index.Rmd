@@ -25,5 +25,10 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE,
                       cache = TRUE)
 ```
 
+# 本稿の目的{-}
+
+ヤクシマザルに関する知見についてまとめた。まとめるにあたり、[人類進化論研究室](https://jinrui.zool.kyoto-u.ac.jp/FuscataHome/yakuzaru.html)のヤクシマザルのウェブサイトを参考に構成した。本稿については[こちら](https://tabutan.github.io/yakuzaru/html)。
+
+
 <!-- なぜか連番途中の引用文献が抜ける -->
 <!-- 引用しているのに引用されていない論文がある -->
