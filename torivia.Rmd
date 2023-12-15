@@ -11,9 +11,9 @@
 ## ヤクシマザルのお隣さん
 >屋久島の隣にある種子島には大正時代までニホンザルがいた[@hanya2000]
 
-1923年に種子島にニホンザルがいたことが、当時東北帝国大学教授であった長谷川言人による全国アンケートによって明らかになっている。屋久島と種子島は約20kmしか離れておらず、同じ亜熱帯地域でありながら降水量が大きく異なる。このような生態学的観点から、種子島のニホンザルが霊長類学が始まる戦後も生き残っていれば、屋久島と種子島での比較研究は興味深かっただろう。
+1923年に種子島にニホンザルがいたことが、当時東北帝国大学教授であった長谷川言人による全国アンケートによって明らかになっている。屋久島と種子島は約20kmしか離れておらず、同じ亜熱帯地域でありながら降水量が大きく異なる（図 \@ref(fig:TaneYakuClimate)）。このような生態学的観点から、種子島のニホンザルが霊長類学が始まる戦後も生き残っていれば、屋久島と種子島での比較研究は興味深かっただろう。
 
-```{r taneyaku_climate, echo=FALSE}
+```{r, TaneYakuClimate, echo=FALSE, fig.cap="屋久島と種子島の気象データの比較"}
 library(tidyverse)
 
 
@@ -38,20 +38,32 @@ read_csv("taneyaku_climate20_22.csv", skip = 6) %>%
   ggplot() +
   facet_grid(~ site) +
   geom_bar(aes(x = month, y = rainfall_month), 
-           name="降水量 (mm)", 
            stat = 'identity', fill = "grey60", 
            width = 0.7,
            breaks = seq(0,3500,500)) +
   geom_line(aes(x = month, y = temp_month*scaler, color = temp_type), size = 1) +
+  scale_color_hue(name = "", labels = c(temp_max_month = "月最高気温", 
+                                        temp_mean_month = "月平均気温", 
+                                        temp_min_month = "月最低気温")) + 
   scale_x_continuous(breaks = seq(1,12,1)) +
   scale_y_continuous(limit = y2.lim, 
                      expand = c(0, 0), 
                      sec.axis=sec_axis(trans = ~ ./scaler, 
                      breaks = seq(y1.lim[1],y1.lim[2],5), 
                      name="気温 (°C)")) +
-  labs(x = "月") 
+  labs(x = "月（2020年から2022年までの3年間の平均値）",
+       y = "降水量 (mm)") +
+  theme_bw(base_size = 16)+
+  theme(axis.title.y = element_text(family = "Arial", size = 14.5),
+        axis.text.x = element_text(family="Arial",
+                                   face = "bold", size = 12),
+        axis.title = element_text(family = "Yu Gothic",
+                                  size = 20),
+        legend.text = element_text(family = "Yu Gothic"),
+        axis.text.y = element_text(family ="Arial")) 
 
 ```
+
 
 
 # その他
