@@ -11,13 +11,13 @@
 ## ヤクシマザルのお隣さん
 >屋久島の隣にある種子島には大正時代までニホンザルがいた[@hanya2000]
 
-1923年に種子島にニホンザルがいたことが、当時東北帝国大学教授であった長谷川言人による全国アンケートによって明らかになっている。屋久島と種子島は約20kmしか離れておらず、同じ亜熱帯地域でありながら降水量が大きく異なる（図 \@ref(fig:TaneYakuClimate)）。このような生態学的観点から、種子島のニホンザルが霊長類学が始まる戦後も生き残っていれば、屋久島と種子島での比較研究は興味深かっただろう。
+1923年に種子島にニホンザルがいたことが、当時東北帝国大学教授であった長谷川言人による全国アンケートによって明らかになっている。屋久島と種子島は約20kmしか離れておらず、同じ亜熱帯地域であるため気温はほぼ同程度の傾向でありながら降水量が大きく異なる（図 \@ref(fig:TaneYakuClimate), c.f. [気象庁の観測データ](https://www.data.jma.go.jp/gmd/risk/obsdl/)）。このような生態学的観点から、霊長類学が始まる戦後も種子島のニホンザルが生き残っていれば、屋久島と種子島での比較研究は興味深かっただろう。
 
-```{r, TaneYakuClimate, echo=FALSE, fig.cap="屋久島と種子島の気象データの比較"}
+```{r, TaneYakuClimate, echo=FALSE, fig.cap="屋久島と種子島の気象データの比較<br>公開されている気象庁の過去の観測データからダウンロードし分析した。分析データは、屋久島観測所（＠屋久島町小瀬田）と種子島観測所（＠西之表市西之表）のデータ、2020年から2022年までの3年間のデータを用いた。"}
 library(tidyverse)
 
 
-y1.lim <- c(0,40) #左軸気温
+y1.lim <- c(0,35) #左軸気温
 y2.lim <- c(0,3500) #右軸降水量
 
 scaler <- (y2.lim[2] - y2.lim[1])/(y1.lim[2] - y1.lim[1])
@@ -56,11 +56,15 @@ read_csv("taneyaku_climate20_22.csv", skip = 6) %>%
   theme_bw(base_size = 16)+
   theme(axis.title.y = element_text(family = "Arial", size = 14.5),
         axis.text.x = element_text(family="Arial",
-                                   face = "bold", size = 12),
+                                   face = "bold", size = 10.5),
         axis.title = element_text(family = "Yu Gothic",
                                   size = 20),
         legend.text = element_text(family = "Yu Gothic"),
-        axis.text.y = element_text(family ="Arial")) 
+        axis.text.y = element_text(family ="Arial"),
+        plot.caption = element_text(family = "Yu Gothic")) 
+
+
+
 
 ```
 
