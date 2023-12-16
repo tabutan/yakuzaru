@@ -1,0 +1,51 @@
+---
+title: "Untitled"
+author: "tabutan"
+date: "`r Sys.Date()`"
+output: html_document
+---
+# 屋久島の自然誌
+## 屋久島の成り立ち
+約1400万年前に花崗岩が隆起してできた島とされる。その大きさは周囲約132km、面積約503km^2^であり、ほぼ円形の島である。
+
+## 世界自然遺産になった経緯
+1993年12月11日に白神山地とともに日本初の世界自然遺産に登録され、その面積は屋久島の約20％に相当する。屋久島は世界的な動植物の移行帯に位置しながら、1800m級の山が7座もあり、黒潮に浮かぶ「洋上アルプス」という特異的な地理的環境下にある。このことから、海岸付近の亜熱帯植物から、暖帯、温帯、亜高山帯と植生の垂直分布がみられる。また多くの固有種と北限・南限の植物が自生している等特異な生態系で構成されている。これらの理由から屋久島は世界自然遺産に指定された。
+
+ユネスコ世界遺産センターのドロステ所長は登録当時、「自然遺産としての屋久島の価値は、多くの人たちが暮らしながら、優れた自然が残されていることにある。」と語っている。
+
+
+```{r MtYaku, echo=FALSE, fig.height=6, fig.width=12, fig.cap="九州TOP100の山<br>緑色が屋久島の山を表す。"}
+library(tidyverse)
+library(ggExtra)
+library(ggrepel)
+
+
+read_csv("data/kyushu_mountain_top100.csv") %>% 
+  mutate(division = str_replace_all(division, c("上屋久町・屋久町" = "屋久島町",
+                                                "屋久町・上屋久町" = "屋久島町",
+                                                "上屋久町" = "屋久島町",
+                                                "屋久町" = "屋久島町")),
+         "yaku10" = if_else(division == "屋久島町","屋久島",""),
+         attitude = str_remove(attitude, pattern = "[m]"),
+         attitude = as.numeric(attitude),
+         mountain = if_else(yaku10 == "屋久島", mountain,"")) %>% 
+  drop_na() %>% 
+  ggplot(aes(x = no_row, y = attitude, color = yaku10)) +
+  geom_point(size = 3, aes(color = yaku10)) +
+  geom_segment(aes(xend = no_row), yend = 0, color = "grey20") +
+  geom_label_repel(aes(label = mountain), size = 3.5) + 
+  scale_color_manual(values = c("grey80","green4")) +
+  scale_x_continuous(breaks = seq(10,100,10)) +
+  scale_y_continuous(breaks = seq(0,2000,100)) +
+  labs(x = "", y = "標高 (m)")  +
+  theme_bw(base_size = 16) +
+  theme(axis.title.y = element_text(family = "Arial", size = 16.5),
+        axis.text.x = element_text(family="Arial",
+                                   face = "bold", size = 16.5),
+        axis.title = element_text(family = "Yu Gothic",
+                                  size = 20),
+        legend.position = "none",
+        axis.text.y = element_text(family ="Arial"),
+        plot.caption = element_text(family = "Yu Gothic")) 
+  
+```
