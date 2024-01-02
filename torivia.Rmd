@@ -89,10 +89,3 @@ knitr::include_graphics("image/marusaru.png")
 knitr::include_graphics("image/tabutan_primate.png")
 ```
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-library(rtweet)
-tweet_embed(screen_name = "tabutan",status_id =  "1716736711248789906")
-
-```
-
-
