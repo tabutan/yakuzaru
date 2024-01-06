@@ -10,6 +10,7 @@ rmd_files:
   - further_study.Rmd
   - history_yakushima.Rmd
   - torivia.Rmd
+  - others.Rmd
   - sessioninfo.Rmd
 output_dir: "docs"  
 language:
