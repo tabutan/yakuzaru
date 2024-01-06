@@ -9,9 +9,9 @@
 
 
 ## ヤクシマザルのお隣さん
->屋久島の隣にある種子島には大正時代ニホンザルがいた[@hanya2000]
+>屋久島の隣にある種子島には大正時代までニホンザルがいた[@hanya2000]
 
-1923年に種子島にニホンザルがいたことが、当時東北帝国大学教授であった長谷川言人による全国アンケートによって明らかになっている。屋久島と種子島は約20kmしか離れておらず、同じ亜熱帯地域であるため気温はほぼ同程度の傾向でありながら降水量が大きく異なる。林芙美子の小説『浮雲』[@hayashi_ukigumo]には屋久島は「月に三十五日も雨が降る」と表現されるほどである（図 \@ref(fig:TaneYakuClimate), *c.f.* [気象庁の観測データ](https://www.data.jma.go.jp/gmd/risk/obsdl/)）。このような生態学的観点から、霊長類学が始まる戦後も種子島のニホンザルが生き残っていれば、屋久島と種子島での比較研究は興味深かっただろう。
+1923年に種子島にニホンザルがいたことが、当時東北帝国大学教授であった長谷川言人による全国アンケートによって明らかになっている。屋久島と種子島は約20kmしか離れておらず、同じ亜熱帯地域であるため気温はほぼ同程度の傾向でありながら降水量が大きく異なり、林芙美子の小説『浮雲』[@hayashi_ukigumo]には「月に三十五日も雨が降る」と表現されるほどである（図 \@ref(fig:TaneYakuClimate), c.f. [気象庁の観測データ](https://www.data.jma.go.jp/gmd/risk/obsdl/)）。このような生態学的観点から、霊長類学が始まる戦後も種子島のニホンザルが生き残っていれば、屋久島と種子島での比較研究は興味深かっただろう。
 
 ```{r, TaneYakuClimate, echo=FALSE, fig.cap="屋久島と種子島の気象データの比較<br>公開されている気象庁の過去の観測データからダウンロードし分析した。分析データは、屋久島観測所（＠屋久島町小瀬田）と種子島観測所（＠西之表市西之表）のデータ、2020年から2022年までの3年間のデータを用いた。"}
 library(tidyverse)
@@ -82,9 +82,5 @@ knitr::include_graphics("image/marusaru.png")
 
 
 ## X (Twitter)
-筆者は[\@tabutan_primate](https://twitter.com/tabutan_primate)で、長期観察することでわかるようなヤクシマザルの情報発信を行っている（図 \@ref(fig:tabutan)）。 
-
-```{r tabutan, fig.align = "left", echo = FALSE, fig.cap = "個人研究発信用アカウントサムネイル"}
-knitr::include_graphics("image/tabutan_primate.png")
-```
+筆者は[\@tabutan_primate](https://twitter.com/tabutan_primate)で、長期観察することでわかるようなヤクシマザルの情報発信を行っている。 
 
