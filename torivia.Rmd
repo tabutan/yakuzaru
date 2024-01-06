@@ -73,19 +73,29 @@ read_csv("data/taneyaku_climate20_22.csv", skip = 6) %>%
 # その他
 我田引水になるが、その他ヤクシマザルに関することを紹介する。
 
-## LINEスタンプ
-あるヤクシマザルの研究者がサルらしい日々の情景をLINEスタンプにしている（[まるさるスタンプ](https://store.line.me/stickershop/product/25103401/ja)、図 \@ref(fig:marusaru)）。筆者が企画から携わり監修したスタンプで、サルが見せる場面の中からスタンプとして使いやすいように工夫を凝らした。
-
-
-```{r marusaru, out.width = "30%", fig.align = "left", echo = FALSE, fig.cap = "サンプル"}
-knitr::include_graphics("image/marusaru.png")
-```
-
-
 ## X (Twitter)
 筆者は[\@tabutan_primate](https://twitter.com/tabutan_primate)で、長期観察することでわかるようなヤクシマザルの情報発信を行っている（図 \@ref(fig:tabutan)）。 
 
 ```{r tabutan, fig.align = "left", echo = FALSE, fig.cap = "個人研究発信用アカウントサムネイル"}
 knitr::include_graphics("image/tabutan_primate.png")
 ```
+
+## LINEスタンプ
+あるヤクシマザルの研究者がサルらしい日々の情景をLINEスタンプにしている（[まるさるスタンプ](https://store.line.me/stickershop/product/25103401/ja)、図 \@ref(fig:marusaru)）。筆者が企画から携わり監修したスタンプで、サルが見せる場面の中からスタンプとして使いやすいように工夫してみた。まるさるスタンプの絵を描いた人のアカウントはこちら（[Instagram](https://www.instagram.com/non_in_the_forest?igsh=Z284cmljcXg4YXd0)）。
+
+```{r marusaru, out.width = "30%", fig.align = "left", echo = FALSE, fig.cap = "LINEスタンプのイメージ図"}
+knitr::include_graphics("image/marusaru.png")
+```
+
+## UTme!
+LINEスタンプだけでなく、ユニクロが運営するUTme!でTシャツなどもある（[Non868](https://utme.uniqlo.com/jp/front/mkt/show?id=1002353&locale=ja)、図 \@ref(fig:UTme)）。好きなデザインから、アイテム・色・サイズを選択できる。
+
+```{r UTme, out.width = "150%", out.height="120%", fig.align = "left", echo = FALSE, fig.cap = "UTme!の商品サンプル"}
+knitr::include_graphics("image/UTme.png")
+```
+
+
+
+
+
 
