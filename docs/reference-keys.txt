@@ -5,7 +5,7 @@ fig:infant
 fig:yojoalps
 fig:TaneYakuClimate
 fig:marusaru
-fig:tabutan
+fig:UTme
 ニホンザルの体のふしぎ
 顔が大きくなるのはなんで
 お尻にあるコブは何
@@ -57,8 +57,8 @@ fig:tabutan
 ニホンザルのトリビア
 ニホンザルの学名
 ヤクシマザルのお隣さん
+日本の動物園で見られるヤクシマザル
 その他
-lineスタンプ
 x-twitter
-fig:UTme
+lineスタンプ
 utme
