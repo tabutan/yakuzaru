@@ -7,6 +7,7 @@ rmd_files:
   - gene.Rmd
   - breeding.Rmd
   - social_relationship.Rmd
+  - cultural_behavior.Rmd
   - further_study.Rmd
   - history_yakushima.Rmd
   - torivia.Rmd
