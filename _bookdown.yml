@@ -5,8 +5,8 @@ rmd_files:
   - development.Rmd
   - group.Rmd
   - gene.Rmd
-  - social_relationship.Rmd
   - breeding.Rmd
+  - social_relationship.Rmd
   - further_study.Rmd
   - history_yakushima.Rmd
   - torivia.Rmd
