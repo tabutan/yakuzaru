@@ -3,6 +3,36 @@
 ## 属レベルでの観点
 ニホンザルが含まれているグループであるマカク属は約20種いて、北西アフリカに生息するバーバリーマカク（*Macaca sylvanus*）以外はすべてアジア南部に生息している。マカク属は700～800万年前のアフリカ北部を起源とし、500～600万年前に中近東を経てユーラシア大陸へ進出した[@hamada2008]。
 
+### マカク属 (genus *Macaca*) のサル
+ニホンザルの仲間であるマカク属のサルには以下が挙げられる[@JMC2024]。
+ニホンザル以外の種について、和書があるものは括弧の右肩に数字を振ってある。
+
+- ニホンザル (Japanese Macaque, *Macaca fuscata*)
+- アカゲザル (Rhesus Macaque, *Macaca mulatta*)
+- チベットモンキー (Tibetan Macaque, *Macaca thibetana*)[@ogawa2002]
+- タイワンザル (Formosan Macaque, *Macaca cyclopis*)
+- カニクイザル (Long-tailed Macaque, *Macaca fascicularis*)
+- ベニガオザル (Stump-tailed Macaque, *Macaca arctoides*)[@toyoda2023]
+- トクモンキー (Toque Macaque, *Macaca sinica*)
+- ボンネットモンキー (Bonnet Macaque, *Macaca radiata*)
+- ホオジロマカク (White-cheeked Macaque, *Macaca leucogenys*)
+- アルナーチャルマカク (Arunachal Macaque, *Macaca munzala*)
+- アッサムモンキー (Assamese Macaque, *Macaca assamensis*)
+- スラウェシ島のサル (Sulawesi macaques, Indonesia)
+  - ブトンマカク (Buton Macaque / Muna-buton Macaque, *Macaca brunnescens*)
+  - トンケアンモンキー (Tonkean Macaque, *Macaca tonkeana*)
+  - ブーツマカク (Booted Macaque, *Macaca ochreata*)
+  - ゴロンタロマカク (Gorontalo Macaque, *Macaca nigrescens*)
+  - クロザル (Crested Macaque, *Macaca nigra*)
+  - ムーアマカク (Moor Macaque, *Macaca maura*)
+  - ヘックマカク (Heck's Macaque, *Macaca hecki*)
+- シシオザル (Lion-tailed Macaque, *Macaca silenus*)
+- シベルトマカク (Siberut Macaque, *Macaca siberu*)
+- パガイマカク (Pagai Macaque, *Macaca pagensis*)
+- ミナミブタオザル (Southern Pig-tailed Macaque , *Macaca nemestrina*) 
+- キタブタオザル (Northern Pig-tailed Macaque, *Macaca leonina*)
+- バーバリーマカク (Barbary Macaque, *Macaca sylvanus*)
+
 ## ニホンザルの祖先
 ニホンザルの祖先は、遅くとも43～63万年前までに朝鮮半島を経て大陸から移動してきたと考えられている[@aimi2002;@kawamura1989]。これは現生人類が日本列島にやってきたとされる4万年前頃[@kaifu2016; @watanabe1999]よりはるか昔のことである（約11万年前の中期旧石器時代の遺跡が発見[@matsufuji2014]されるなど4万年前より人類が存在していたことが示唆されているが、まだ証拠が少ない）。
 その後、海水面の上昇により大陸と隔離し、温暖化とともに日本列島各地に広がったと考えられている。全国のニホンザル個体群のミトコンドリアDNA（mtDNA）から、兵庫県から岡山県あたりを境界線に、それより北のニホンザルは後氷期以降に急速に拡大していったことが示唆されている[@kawamoto2007]。
