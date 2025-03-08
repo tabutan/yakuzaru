@@ -14,6 +14,8 @@ knitr::include_graphics("image/marusaru.png")
 ## UTme!
 LINEスタンプだけでなく、ユニクロが運営するUTme!でTシャツなどもある（図 \@ref(fig:UTme)）。好きなデザインを選び、アイテム・色・サイズの3要素の組み合わせから楽しめる（[こちら](https://utme.uniqlo.com/jp/front/mkt/show?id=1002353&locale=ja)）。
 
+**UTme!のサービスが終了し、現在は販売をしていません**。
+
 ```{r UTme, out.width = "150%", out.height="120%", fig.align = "left", echo = FALSE, fig.cap = "UTme!の商品サンプル"}
 knitr::include_graphics("image/UTme.png")
 ```
