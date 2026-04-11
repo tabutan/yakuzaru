@@ -1,6 +1,6 @@
 --- 
 title: "ヤクシマザルという生き物を知りたい"
-author: "tabutan"
+author: "田伏 良幸"
 date: "`r Sys.Date()`"
 output: 
   bookdown::gitbook:
