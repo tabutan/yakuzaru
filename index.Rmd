@@ -4,7 +4,7 @@ author: "田伏 良幸"
 date: "`r Sys.Date()`"
 output: 
   bookdown::gitbook:
-    split_bib: yes  
+    split_bib: yes
     number_sections: true   
     toc_depth: 4 
     css: custom_style.css   
@@ -15,8 +15,9 @@ header-includes:
    - \usepackage{amsmath}
    - \usepackage{nccmath}
 bibliography: reference_yakuzaru.bib   
-link-citations: yes
+link-citations: true
 csl: nature-no-et-al.csl
+
 ---
 
 ```{r, echo = FALSE}
